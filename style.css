@@ -1,0 +1,82 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100dvw;
+  height: 100dvh;
+  overflow: hidden;
+}
+
+body {
+  background-color: aquamarine;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.container {
+  width: 100dvw;
+  height: 100dvh;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+button {
+  width: 30vw;
+  height: 30vw;
+
+  display: grid;
+  place-items: center;
+
+  background-color: floralwhite;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  gap: 10vw;
+}
+
+div.spacer {
+  height: 20vw;
+}
+
+.noto-serif-jp {
+  font-family: "Noto Serif JP", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.mochiy-pop-one-regular {
+  font-family: "Mochiy Pop One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.75vw;
+  letter-spacing: 0.125em;
+}
+
+.is-small {
+  font-size: 2.5vw;
+}
+
+.is-normal {
+  font-size: 2.75vw;
+}
+
+.is-medium {
+  font-size: 5vw;
+}
+
+.is-large {
+  font-size: 10vw;
+}
+
+.is-huge {
+  font-size: 20vw;
+}
