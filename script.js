@@ -29,24 +29,18 @@ const quizPageHTML = `
 const quizPageBackgroundColor = "lightpink";
 
 const correctPageHTML = `
-  <div>
-    <p class="noto-serif-jp is-large">クリア</p>
-    <div class="spacer"></div>
-    <p class="noto-serif-jp is-medium">
-      1不可説不可説転点
-    </p>
-  </div>
+  <p class="noto-serif-jp is-large">クリア</p>
+  <p class="noto-serif-jp is-medium">
+    1不可説不可説転点
+  </p>
 `;
 
 const incorrectPageHTML = `
-  <div>
-    <p class="noto-serif-jp is-huge">残念</p>
-    <div class="spacer"></div>
-    <p class="noto-serif-jp is-normal">
-      あなたはルイザ・グロス・ホロウィッツ賞の<br>
-      日本人受賞者を1人も覚えていません
-    </p>
-  </div>
+  <p class="noto-serif-jp is-huge">残念</p>
+  <p class="noto-serif-jp is-normal">
+    あなたはルイザ・グロス・ホロウィッツ賞の<br>
+    日本人受賞者を1人も覚えていません
+  </p>
 `;
 const resultPageBackgroundColor = "yellow";
 
