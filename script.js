@@ -64,11 +64,14 @@ document.body.addEventListener("click", (e) => {
       break;
 
     case "quiz":
-      const isCorrect = e.target.textContent === "利根川進";
-      setPage(
-        isCorrect ? correctPageHTML : incorrectPageHTML,
-        resultPageBackgroundColor
-      );
+      const answer = e.target.textContent;
+      if (answer === "利根川進") {
+        setPage(correctPageHTML, resultPageBackgroundColor);
+      } else if (answer === "木村資生") {
+        setPage(incorrectPageHTML, resultPageBackgroundColor);
+      } else {
+        return;
+      }
       currentPage = "result";
       break;
 
